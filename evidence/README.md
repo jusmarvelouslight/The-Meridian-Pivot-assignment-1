@@ -1,87 +1,24 @@
 # Evidence
 
-This directory contains evidence supporting the functional correctness,
-testing, troubleshooting, and learning documented in Assignment 1.
-
----
+This directory contains selected evidence supporting the functional
+correctness and troubleshooting documented in Assignment 1.
 
 ## Evidence Index
 
-| ID | Evidence | Purpose | Related Requirement |
-|---|---|---|---|
-| E001 | | | |
-| E002 | | | |
-| E003 | | | |
-| E004 | | | |
+| ID | Evidence | Supports |
+|---|---|---|
+| E001 | Final successful prototype execution | Functional correctness |
+| E002 | Failed test and error output | Troubleshooting |
+| E003 | Successful result after fix | Troubleshooting / Functional correctness |
 
----
+## E001 — Final Successful Execution
 
-# Evidence Categories
+[Brief explanation and link/image]
 
-## 1. Setup Evidence
+## E002 — Initial Failure
 
-Evidence that the assigned tool/environment was successfully configured.
+[Brief explanation and link/image]
 
-Examples:
+## E003 — Successful Fix
 
-- Installation
-- Configuration
-- Initial successful execution
-
----
-
-## 2. Functional Evidence
-
-Evidence that the mini-prototype actually works.
-
-Examples:
-
-- Successful execution
-- Expected output
-- Successful request/response
-- Successful test
-
----
-
-## 3. Failure / Troubleshooting Evidence
-
-Evidence showing significant problems encountered and resolved.
-
-Examples:
-
-- Error output
-- Failed test
-- Before/after behaviour
-
----
-
-## 4. Testing Evidence
-
-Evidence demonstrating that the prototype was tested rather than
-simply executed once.
-
-Examples:
-
-- Valid input
-- Invalid input
-- Edge case
-- Expected failure
-- Successful recovery
-
----
-
-## 5. Final Prototype Evidence
-
-Evidence demonstrating the final working state of the prototype.
-
----
-
-# Evidence Naming Convention
-
-Use descriptive names such as:
-
-E001-initial-setup.png
-E002-first-successful-run.png
-E003-blocker-001-error.png
-E004-blocker-001-fix.png
-E005-final-test.png
+[Brief explanation and link/image]
