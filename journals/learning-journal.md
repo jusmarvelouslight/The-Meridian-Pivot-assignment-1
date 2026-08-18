@@ -5,11 +5,11 @@
 
 **Assignment:** Meridian Pivot — Assignment 1: Solo Recon
 
-**Assigned Tool:** [Tool name — complete once assigned]
+**Assigned Tool:** [Retry/Backoff]
 
-**Date Assigned:** [DD/MM/YYYY]
+**Date Assigned:** [18/8/2026]
 
-**Time Limit:** [As specified by instructor]
+**Time Limit:** [3 days]
 
 **Prototype Objective:** [Complete once requirements are known]
 
@@ -21,22 +21,21 @@
 
 ### What I Already Know
 
-- 
-- 
-- 
+- I know that retry/backoff is one of the tools we were asked to build a syncing service with
+- function might be derived from its name
 
 ### What I Do Not Know
 
-- 
-- 
-- 
+- What is Retry/backoff
+- How do i implement both of them in my syncing service
+- Why are they both necessary
 
 ### Initial Understanding of the Tool
 
 [In your own words, explain what you currently think the tool is
-and what problem it solves.]
+and what]
 
----
+---Honestly i am not a tech expert so these things are quite new to me but hey.. we are learning each day
 
 ## 2. Learning Objectives
 
