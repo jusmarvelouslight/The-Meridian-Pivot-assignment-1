@@ -11,7 +11,7 @@
 
 **Time Limit:** [3 days]
 
-**Prototype Objective:** [Complete once requirements are known]
+**Prototype Objective:** [Depict retry/backoff,a syncing service]
 
 ---
 
