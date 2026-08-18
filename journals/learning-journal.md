@@ -55,23 +55,25 @@ By the end of the solo reconnaissance period, I need to be able to:
 
 ### Research Activity 001
 
-**Time:**
+**Time:**07:30
 
 **Resource/Source:**
+Youtube, https://btholt.github.io/complete-intro-to-realtime/backoff-and-retry
 
 **What I was trying to understand:**
+what is retry/backoff
 
 **What I learned:**
-
+Retry is like something that attempts something again in a system after a failure while backoff is what stops the retries after a ttime limit is reached
 **What I still did not understand:**
-
+what systems should i create to simulate this and where and also how do i simulate a failure so that i can test this also what is needed for the retry/backoff code snippets
 **How this affected my implementation:**
 
 ---
 
 ### Research Activity 002
-
-**Time:**
+What system can i build and what tools i need to use to simulate trancient failures and also 
+**Time:**08:32
 
 **Resource/Source:**
 
