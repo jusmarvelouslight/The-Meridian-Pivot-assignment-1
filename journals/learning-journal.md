@@ -99,10 +99,18 @@ Backoff strategy,Jitters,simulation of the trancient failure
 **Time:**20:45 PM
 **Resource/Source:**
 https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter
+https://backoff-utils.readthedocs.io/en/latest/strategies.html
 **What I was trying to understand:**
 Different backoff strategies and their ease of use,what is a jitter and how i`m i going to use it
 **What I learned:**
-
+I learnt that there are 5 types of backoff strategies
+1. Linear backoff strategy
+2. Eponential backoff strategy
+3. fixed backoff strategy
+4. Polynomial backoff strategy
+i decided to pick linear backoff because its new to me and also with the deadlines in mind i had to choose one that could not give me a hard time handling.
+i learnt that a jitter helps to add some amount of time to the delay time. Ichose to go with a full jitter with the interest of time at heart
+Now to demonstrate/simulate the trancient failuure which is network timeout in my case, i learnt that there are many tools that can help one to simulate a trancient environment for testing but one particular one called unittest.mock caught my attention because it is 100% free,Easy to simulate multiple failure modes,Focuses on business logicconsidering that northstar may be a business company and finally Fast and deterministic.
 **What I still did not understand:**
 
 ## 4. Implementation Progress
