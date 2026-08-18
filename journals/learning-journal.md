@@ -55,9 +55,10 @@ By the end of the solo reconnaissance period, I need to be able to:
 
 ### Research Activity 001
 
-**Time:**07:30AM
+**Time:**07:30 AM-10:38 AM
 
 **Resource/Source:**
+
 Youtube, https://btholt.github.io/complete-intro-to-realtime/backoff-and-retry
 
 **What I was trying to understand:**
@@ -72,11 +73,14 @@ what systems should i create to simulate this and where and also how do i simula
 ---
 
 ### Research Activity 002
-What prototype can i build and what tools i need to use to simulate trancient failures and also where all these is done
+What prototype can i build and what tools i need to use to simulate trancient failures and also where all these is done.
+
 **Time:**08:32-10:04AM
 
 **Resource/Source:**
+
 https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter
+
 **What I was trying to understand:**
 i was tryng to understand the prototype that i need to build in order to simulate trancient failures turns out there are many types of trancient failures
 **What I learned:**
@@ -95,11 +99,15 @@ I still could not get, the backoff strategy i would use, how i would simulate/co
 ---
 
 ### Research Activity 003
-Backoff strategy,Jitters,simulation of the trancient failure
-**Time:**20:45 PM
+Backoff strategy,Jitters,simulation of the trancient failure.
+
+**Time:**20:45 PM-23:18
+
 **Resource/Source:**
+
 https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter
 https://backoff-utils.readthedocs.io/en/latest/strategies.html
+
 **What I was trying to understand:**
 Different backoff strategies and their ease of use,what is a jitter and how i`m i going to use it
 **What I learned:**
