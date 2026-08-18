@@ -72,8 +72,29 @@ what systems should i create to simulate this and where and also how do i simula
 ---
 
 ### Research Activity 002
-What system can i build and what tools i need to use to simulate trancient failures and also 
-**Time:**08:32
+What prototype can i build and what tools i need to use to simulate trancient failures and also where all these is done
+**Time:**08:32-10:04
+
+**Resource/Source:**
+
+**What I was trying to understand:**
+i was tryng to understand the prototype that i need to build in order to simulate trancient failures turns out there are many types of trancient failures
+**What I learned:**
+i learnt that first of all retry/backoff is not a webhook itself but it is an error handling rule or helper when sending webhooks. also,i learnt that there are many types of trancient failures that the mechanism could solve the tree that i learnt were Network timeout,Resource exhaustion and service overload.Although i did not delve much deeper into all of them,i tried to understand each and every one of the three but i identified network timeout as the trancient failure scenario for my prototype. secondly, i understood that it is backend work and i do not need to create a website or chatbot for the same.
+The tools that i found out were
+
+I selected this failure scenario because it seemed understandibletherefore,my prototype will demonstrate a timed out operation using a back off strategy.
+i intend to test
+1.Immediate success
+2.temporary timeout followed by successful recovery
+3.repeated timeout resulting in failure
+**What I still did not understand:**
+I still could not get, the backoff strategy i would use, how i would simulate/control the network timeout for demonstrations
+**How this affected my implementation:**
+
+---
+
+### Research Activity 003
 
 **Resource/Source:**
 
@@ -83,11 +104,9 @@ What system can i build and what tools i need to use to simulate trancient failu
 
 **What I still did not understand:**
 
-**How this affected my implementation:**
-
----
-
 ## 4. Implementation Progress
+
+**How this affected my implementation:**
 
 ### Attempt 001
 
