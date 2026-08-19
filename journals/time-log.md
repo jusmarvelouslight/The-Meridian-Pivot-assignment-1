@@ -3,7 +3,7 @@
 
 ## Time Summary
 
-**Total available time:**
+**Total available time:** 72HRS
 
 **Total actual time spent:**
 
