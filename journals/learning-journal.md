@@ -126,15 +126,15 @@ Now to demonstrate/simulate the trancient failuure which is network timeout in m
 **How this affected my implementation:**
 
 ### Attempt 001
-
+https://www.w3schools.com/python/python_functions.asp
 **What I attempted:**
-
+Creating a function that sometimes fails
 **Expected result:**
-
+when i run this code,it has to fail sometimes and also it has to succeed sometimes
 **Actual result:**
 
 **What I learned:**
-
+I have to admit at first i realy thought that creating a function was hard turns out you just have to write def to make the code a function
 **Next step:**
 
 ---
