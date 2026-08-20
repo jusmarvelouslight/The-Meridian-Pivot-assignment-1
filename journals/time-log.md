@@ -29,47 +29,87 @@
 # Detailed Time Entries
 
 ## Entry 001
+
 Initial research
+
 **Date:**
+
 17/08/2026
+
 **Start:**
+
 07:30AM
+
 **End:**
+
 10:38AM
+
 **Duration:**
+
 3hrs 8min
+
 **Activity:**
+
 research
+
 **Goal:**
+
 find out all about retry/backoff
+
 **Result:**
+
 i found all about retry/backoff
+
 **Was the estimate accurate?**
+
 not really
+
 **If not, why?**
+
 Because there were certain aspects that i thought would not take time but did
+
 ---
 
 ## Entry 002
+
 Implementation
+
 **Date:**
+
 19/08/2026
+
 **Start:**
+
 7:30 AM
+
 **End:**
+
 16:00
+
 **Duration:**
+
 8hrs
+
 **Activity:**
+
 First implementation
+
 **Goal:**
+
 to implement what i already had learnt
+
 **Result:**
+
 Done
+
 **Was the estimate accurate?**
+
 not really
+
 **If not, why?**
+
 it took a smaller amount of time than the estimate because of tools like chatgpt that help me to learn and come up with code snippets
+
 ---
 
 ## Final Reflection
