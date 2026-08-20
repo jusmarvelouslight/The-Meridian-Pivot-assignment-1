@@ -5,11 +5,11 @@
 
 **Total available time:** 72HRS
 
-**Total actual time spent:**
+**Total actual time spent:**72HRS
 
-**Estimated total time:**
+**Estimated total time:**70HRS
 
-**Difference:**
+**Difference:**2HRS
 
 ---
 
