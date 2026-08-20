@@ -62,11 +62,17 @@ Youtube, https://btholt.github.io/complete-intro-to-realtime/backoff-and-retry
 what is retry/backoff
 
 **What I learned:**
+
 Retry is like something that attempts something again in a system after a failure while backoff is what stops the retries after a ttime limit is reached
+
 **What I still did not understand:**
+
 what systems should i create to simulate this and where and also how do i simulate a failure so that i can test this also what is needed for the retry/backoff code snippets
+
 **How this affected my implementation:**
+
 if i didnt get too understand what retry/backoff was then i could not even come up with the system itself
+
 ---
 
 ### Research Activity 002
@@ -89,10 +95,15 @@ i intend to test
 1.Immediate success
 2.temporary timeout followed by successful recovery
 3.repeated timeout resulting in failure
+
 **What I still did not understand:**
+
 I still could not get, the backoff strategy i would use, how i would simulate/control the network timeout for demonstrations also what jitters are and how i can incorporate in the system
+
 **How this affected my implementation:**
+
 If i did not know this, then i would not even be anyehere near simulating network failure ergo the whole purpose of this sole recon would be rendered moot
+
 ---
 
 ### Research Activity 003
@@ -125,15 +136,21 @@ Now to demonstrate/simulate the trancient failuure which is network timeout in m
 ### Attempt 001
 
 **What I attempted:**
+
 I created the initial Python project structure and began designing the retry function.
 **Expected result:**
+
 I expected to have a function structure that could receive an operation and retry it when a timeout occurred
 **Actual result:**
+
 The function structure was created, but I had not yet implemented the retry behavior.
 **What I learned:**
+
 I realized that I needed to clearly separate the retry mechanism from the operation being retried.
 **Next step:**
+
 Understand how the operation can be passed into the retry function and controlled during testing.
+
 ---
 
 ### Attempt 002
