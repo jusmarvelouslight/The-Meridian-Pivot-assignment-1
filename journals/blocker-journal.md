@@ -11,13 +11,7 @@ reconnaissance period.
 
 ## Identification
 
-**Date:**
-
-**Time encountered:**
-
-**Time resolved:**
-
-**Total time blocked:**
+**Date:**19/08/2026
 
 **Severity:**
 - [ ] Low
