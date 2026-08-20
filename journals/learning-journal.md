@@ -7,11 +7,11 @@
 
 **Assigned Tool:** Retry/Backoff
 
-**Date Assigned:** [18/8/2026]
+**Date Assigned:** 18/8/2026
 
-**Time Limit:** [3 days]
+**Time Limit:** 3 days
 
-**Prototype Objective:** [Depict retry/backoff,a syncing service]
+**Prototype Objective:** Depict retry/backoff,a syncing service
 
 ---
 
@@ -32,8 +32,8 @@
 
 ### Initial Understanding of the Tool
 
-[In your own words, explain what you currently think the tool is
-and what]
+In your own words, explain what you currently think the tool is
+and what
 
 ---Honestly i am not a tech expert so these things are quite new to me but hey.. we are learning each day
 
@@ -69,7 +69,7 @@ Retry is like something that attempts something again in a system after a failur
 **What I still did not understand:**
 what systems should i create to simulate this and where and also how do i simulate a failure so that i can test this also what is needed for the retry/backoff code snippets
 **How this affected my implementation:**
-
+if i didnt get too understand what retry/backoff was then i could not even come up with the system itself
 ---
 
 ### Research Activity 002
@@ -95,7 +95,7 @@ i intend to test
 **What I still did not understand:**
 I still could not get, the backoff strategy i would use, how i would simulate/control the network timeout for demonstrations also what jitters are and how i can incorporate in the system
 **How this affected my implementation:**
-
+If i did not know this, then i would not even be anyehere near simulating network failure ergo the whole purpose of this sole recon would be rendered moot
 ---
 
 ### Research Activity 003
@@ -119,37 +119,38 @@ I learnt that there are 5 types of backoff strategies
 i decided to pick linear backoff because its new to me and also with the deadlines in mind i had to choose one that could not give me a hard time handling.
 i learnt that a jitter helps to add some amount of time to the delay time. Ichose to go with a full jitter with the interest of time at heart
 Now to demonstrate/simulate the trancient failuure which is network timeout in my case, i learnt that there are many tools that can help one to simulate a trancient environment for testing but one particular one called unittest.mock caught my attention because it is 100% free,Easy to simulate multiple failure modes,Focuses on business logicconsidering that northstar may be a business company and finally Fast and deterministic.
-**What I still did not understand:**
+
 
 ## 4. Implementation Progress
 
 **How this affected my implementation:**
 
 ### Attempt 001
-https://www.w3schools.com/python/python_functions.asp
+
 **What I attempted:**
-Creating a function that sometimes fails
+I created the initial Python project structure and began designing the retry function.
 **Expected result:**
-when i run this code,it has to fail sometimes and also it has to succeed sometimes
+I expected to have a function structure that could receive an operation and retry it when a timeout occurred
 **Actual result:**
-
+The function structure was created, but I had not yet implemented the retry behavior.
 **What I learned:**
-I have to admit at first i realy thought that creating a function was hard turns out you just have to write def to make the code a function
+I realized that I needed to clearly separate the retry mechanism from the operation being retried.
 **Next step:**
-
+Understand how the operation can be passed into the retry function and controlled during testing.
 ---
 
 ### Attempt 002
 
 **What I attempted:**
-
+I created a small `unittest.mock` experiment to control the result of successive calls.
 **Expected result:**
-
+I expected the mock to produce two timeout failures followed by a successful result.
 **Actual result:**
-
+The first version of my experiment did not behave as expected.
 **What I learned:**
-
+I discovered that I had misunderstood how the mock's side_effect behavior works.
 **Next step:**
+Review the documentation and modify the experiment before connecting it to the actual retry logic.
 
 ---
 
@@ -160,35 +161,77 @@ I have to admit at first i realy thought that creating a function was hard turns
 **Decision:**
 
 **Why I made it:**
-
+Python is the language I think is comfortable for starters, which allows me to focus my learning effort on retry/backoff rather than learning an unfamiliar programming language at the same time.
 **Alternative I considered:**
-
+Using another language.
 **Why I did not choose the alternative:**
+i never wanted any other language
 
 ---
 
-## 6. End-of-Day Reflection
+### Decision 002
 
-### What I Understand Now
+**Decision:**
 
-- 
-- 
-- 
+Use a network timeout as the transient failure scenario.
 
-### What I Still Need to Solve
+**Why I made it:**
 
-- 
-- 
-- 
+A timeout can represent a temporary failure where retrying the operation may eventually succeed.
+
+**Alternative I considered:**
+
+Using another type of failure.
+
+**Why I did not choose the alternative:**
+
+The timeout scenario provides a clear and understandable example of why retry/backoff can be useful.And also not time consuming to learn which is a factor i always consider during the phase of this assignment
+
+---
+
+### Decision 003
+
+**Decision:**
+
+Use linear backoff with jitter.
+
+**Why I made it:**
+
+I wanted a backoff strategy that was simple enough to understand and demonstrate clearly while still showing that retry attempts do not happen immediately one after another.
+
+**Alternative I considered:**
+
+Exponential backoff
+
+**Why I did not choose the alternative:**
+
+For this small prototype, I considered exponential backoff more complex than necessary for demonstrating the core concept.
+
+---
+
+### Decision 004
+
+**Decision:**
+
+Use unittest.mock to simulate network timeout behavior.
+
+**Why I made it:**
+
+A real network timeout would be difficult to reproduce reliably.Using a mock allows me to control the sequence of failures and successes during testing.
+
+**Alternative I considered:**
+
+Making real network requests and waiting for them to timeout.
+
+**Why I did not choose the alternative:**
+
+The behavior would be unpredictable and would make testing slower and less reproducible.
+
 
 ### Biggest Discovery
+My biggest discovery was that retrying is not simply about repeating an operation after it fails. The retry mechanism needs a deliberate policy determining when to retry, how long to wait, and when to stop.
 
-[What was the most important thing you learned today?]
 
 ### Biggest Difficulty
+The most difficult part for me was fiuring out the python.i never knew anything remotely connected with python but at least now i might say im not the same as i was before
 
-[What challenged you most?]
-
-### Next Priority
-
-[What is the single most important thing to accomplish next?]
