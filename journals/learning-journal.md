@@ -32,10 +32,7 @@
 
 ### Initial Understanding of the Tool
 
-In your own words, explain what you currently think the tool is
-and what
-
----Honestly i am not a tech expert so these things are quite new to me but hey.. we are learning each day
+Honestly i am not a tech expert so these things are quite new to me but hey.. we are learning each day
 
 ## 2. Learning Objectives
 
