@@ -3,13 +3,13 @@
 
 ## Time Summary
 
-**Total available time:** 72HRS
+**Total available time: 72HRS
 
-**Total actual time spent:**72HRS
+**Total actual time spent:72HRS
 
-**Estimated total time:**70HRS
+**Estimated total time:70HRS
 
-**Difference:**2HRS
+**Difference:2HRS
 
 ---
 
