@@ -1,7 +1,6 @@
 # Evidence
 
-This directory contains selected evidence supporting the functional
-correctness and troubleshooting documented in Assignment 1.
+This directory contains selected evidence supporting the functional correctness and troubleshooting documented in Assignment 1.
 
 ## Evidence Index
 
@@ -13,11 +12,12 @@ correctness and troubleshooting documented in Assignment 1.
 
 ## E001 — Final Successful Execution
 
-[Brief explanation and link/image]
+This photo dump contains all the images taken after the final test
+https://docs.google.com/document/d/1uWA3wQJWxCyKbdJthprh8lJYlcnRJTeCE2nNHjb5eLY/edit?usp=sharing
 
 ## E002 — Initial Failure
 
-[Brief explanation and link/image]
+
 
 ## E003 — Successful Fix
 
