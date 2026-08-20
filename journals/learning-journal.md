@@ -5,7 +5,7 @@
 
 **Assignment:** Meridian Pivot — Assignment 1: Solo Recon
 
-**Assigned Tool:** [Retry/Backoff]
+**Assigned Tool:** Retry/Backoff
 
 **Date Assigned:** [18/8/2026]
 
