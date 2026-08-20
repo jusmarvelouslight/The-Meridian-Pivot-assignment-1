@@ -24,3 +24,7 @@ https://docs.google.com/document/d/1lNjSYZkfy12AlVzvtQ2e6j9SS9P8gkeRZvzTuh67ljA/
 ## E003 — Successful Fix
 This photodump contains images taken during the test and implementation phase and captures all the successful fixes
 https://docs.google.com/document/d/1-KGAUXK-RV4lsqi3qUnZLBpp0xjkA4FbKwYtzLuSZNE/edit?usp=sharing
+
+## E004-The idea
+this is the understanding i had about retry/backoff after solo learning
+https://excalidraw.com/#json=nft6Wb_b6vGawap1pxRH7,AB3Mk_AZY08PKMwo5jaahg
