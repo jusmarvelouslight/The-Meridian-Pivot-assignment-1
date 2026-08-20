@@ -15,10 +15,12 @@ This directory contains selected evidence supporting the functional correctness 
 This photo dump contains all the images taken after the final test
 https://docs.google.com/document/d/1uWA3wQJWxCyKbdJthprh8lJYlcnRJTeCE2nNHjb5eLY/edit?usp=sharing
 
-## E002 — Initial Failure
+## E002 —Failures as captured in the blocker journal
+This photo dump contains images taken during the test and implementation phase and captures all the failures that were encountered.
+https://docs.google.com/document/d/1lNjSYZkfy12AlVzvtQ2e6j9SS9P8gkeRZvzTuh67ljA/edit?usp=sharing
 
 
 
 ## E003 — Successful Fix
-
-[Brief explanation and link/image]
+This photodump contains images taken during the test and implementation phase and captures all the successful fixes
+https://docs.google.com/document/d/1-KGAUXK-RV4lsqi3qUnZLBpp0xjkA4FbKwYtzLuSZNE/edit?usp=sharing
